@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CrearEventoVistaPrevia from "./components/pages/CrearEventoVistaPrevia";
+import App from "./components/App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CrearEventoVistaPrevia />
+      <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
